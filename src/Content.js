@@ -1,6 +1,9 @@
 // import images
-import Hero_person from "./assets/images/Hero/person.png";
+// import Hero_person from "./assets/images/Hero/person.png";
+import Hero_person from "./assets/images/Hero/saad.png";
 
+import nginx from "./assets/images/Skills/nginx.png"
+import aws from "./assets/images/Skills/aws.png"
 import figma from "./assets/images/Skills/figma.png";
 import sketch from "./assets/images/Skills/sketch.png";
 import ps from "./assets/images/Skills/ps.png";
@@ -12,10 +15,10 @@ import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
 
-import project1 from "./assets/images/projects/img1.png";
-import project2 from "./assets/images/projects/img2.png";
-import project3 from "./assets/images/projects/img3.png";
-import person_project from "./assets/images/projects/person.png";
+import project1 from "./assets/images/Projects/img1.png";
+import project2 from "./assets/images/Projects/img2.png";
+import project3 from "./assets/images/Projects/img3.png";
+import person_project from "./assets/images/Projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
@@ -48,28 +51,28 @@ export const content = {
       link: "#services",
       icon: RiServiceLine,
     },
-    {
-      link: "#projects",
-      icon: RiProjectorLine,
-    },
+    // {
+    //   link: "#projects",
+    //   icon: RiProjectorLine,
+    // },
     {
       link: "#contact",
       icon: MdOutlinePermContactCalendar,
     },
   ],
   hero: {
-    title: "Web Developer",
-    firstName: "JOHN",
-    LastName: "ALEX",
+    title: "Full Stack Developer",
+    firstName: "Syed Saad",
+    LastName: "Ullah Shah",
     btnText: "Hire Me",
     image: Hero_person,
     hero_content: [
       {
-        count: "8+",
+        count: "3+",
         text: "Years of Experinse in Web development",
       },
       {
-        count: "20+",
+        count: "10+",
         text: "Projects Worked in my career",
       },
     ],
@@ -79,33 +82,33 @@ export const content = {
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
-        name: "Figma",
-        para: "Lorem ipsum text  dummy",
-        logo: figma,
+        name: "Nginx",
+        para: "I am very passionate about servers and love nginx",
+        logo: nginx,
       },
       {
         name: "Node js",
-        para: "Lorem ipsum text  dummy",
+        para: "Node Js is my main server side language of choice",
         logo: nodejs,
       },
       {
         name: "Adobe Photoshop",
-        para: "Lorem ipsum text  dummy",
+        para: "Photoshop is every web developers best friend for moderate frontend tasks",
         logo: ps,
       },
       {
         name: "React js",
-        para: "Lorem ipsum text  dummy",
+        para: "Most popular Javascript Framework in town right now",
         logo: reactjs,
       },
       {
-        name: "Sketch",
-        para: "Lorem ipsum text  dummy",
-        logo: sketch,
+        name: "AWS",
+        para: "Devops facinate me and i have been learning new stuff about cloud everyday",
+        logo: aws,
       },
       {
         name: "Python",
-        para: "Lorem ipsum text  dummy",
+        para: "Python is my main language for Machine Learning, Deep learning and Data science related tasks",
         logo: python,
       },
     ],
@@ -117,17 +120,17 @@ export const content = {
     service_content: [
       {
         title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "Web Development has evolved over the years and so have i, i can design and develop websites and web applications using frameworks like React JS, Next JS, Ruby on rails, PHP Laravel",
         logo: services_logo1,
       },
       {
-        title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Backend Development",
+        para: "Servers are interesting for me then all the frontend work, i enjoy working on the terminal; i almost feel like a hacker hacking NASA",
         logo: services_logo2,
       },
       {
-        title: "PhotoShop Editing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Data Analysis and Deep Learning",
+        para: "Deep learning is my latest passion, it is fascinating a field almost like magic. This is a journey to demistify this magical mystery",
         logo: services_logo3,
       },
     ],
@@ -194,19 +197,19 @@ export const content = {
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "shahsaadullah11@gmail.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        link: "",
       },
       {
-        text: "+91 1234 56778",
+        text: "+92 306 9384728",
         icon: MdCall,
-        link: "https://wa.me/1234567890",
+        link: "https://wa.me/03069384728",
       },
       {
-        text: "codeaprogram",
+        text: "Syed Saad Ullah Shah",
         icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        link: "https://www.linkedin.com/in/syed-saad-ullah-shah-14660214b/",
       },
     ],
   },

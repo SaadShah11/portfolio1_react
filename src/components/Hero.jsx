@@ -1,5 +1,5 @@
 // import content
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { content } from "../Content";
 const Hero = () => {
   const { hero } = content;
@@ -42,7 +42,7 @@ const Hero = () => {
         </div>
 
         {/* sec col */}
-        <div className="md:h-[37rem] h-96">
+        <div className="md:h-[20rem] h-96">
           <img
             src={hero.image}
             data-aos="slide-up"
